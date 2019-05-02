@@ -1,0 +1,32 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int r, c;
+    
+    cout << "Enter the value of the row:";
+    cin >> r;
+    
+    cout << "\n";
+    
+    cout << "Enter the value of the column:";
+    cin >> c;
+    
+    cout << "\n";
+    cout << "\n";
+    
+    for (int q = 1; q <= r; q++)
+    {
+        for (int a = 1; a <= c; a++)
+        {
+        cout << "*";
+        }
+        cout << endl;
+    }
+
+_getch ();
+return 0;
+}
